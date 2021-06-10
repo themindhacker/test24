@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<style>
+*,
+body,
+html {
+	box-sizing: border-box
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+
+body {
+	background: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400
+}
+
+.container {
+	max-width: 300px;
+	margin: 0px auto
+}
+
+.header {
+	text-align: center;
+	background: #ff0000;
+	padding: 7px;
+	color: #fff;
+	display: inherit;
+	text-decoration: none;
+	font-size: 24px
+}
+
+.header a {
+	color: #fff
+}
+
+.footer {
+	background-color: #ff0000;
+	color: #fff;
+	text-align: center;
+	padding: 32px
+}
+
+.divclass {
+	background-color: #ff0000;
+	color: #fff;
+	margin-bottom: 5px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	display: none;
+}
+</style>
+<script>
+        $(document).ready(function () {
+            var divs = $("[id^=show]");
+            var i = 0;
+            var loop = window.setInterval(function () {
+                i++;
+                $(divs[i]).fadeIn(1000);
+                if (i == divs.length)
+                    clearInterval(loop);
+            }, 1000);
+        });
+
+    </script> 
+</head>
+<body>
+<div class="header">
+
+<b>xHamsters.only4u.xyz</b>
+
+</div>
+
+<div class="container">
+
+<center>
+    <div id="show2" class="divclass">Unblocking Started</div> <br />
+    <div id="show3" class="divclass">Searching for working link</div> <br />
+    <div id="show4" class="divclass">New link found</div> <br />
+    <div id="show5" class="divclass">Conforming https://</div> <br /> 
+    <div id="show6" class="divclass">Scaning Browser</div> <br /> 
+    <div id="show7" class="divclass">Almost Unblocked</div> <br />
+    <div id="show8" class="divclass">Redirecting</div> <br />
+</center>
+
+</div>
+
+<div class="footer">
+
+&#169; All Right Reserved 2020-21
+
+</div>
+<script>
+         setTimeout(function(){
+            window.location.href = 'https://xhgeo.com/';
+         }, 7000);
+      </script>
+</body>
+</html>
